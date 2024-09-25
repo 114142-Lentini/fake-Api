@@ -1,19 +1,46 @@
 {
-	"posts": [
-		{
-		  "id": 1,
-		  "title": "hello"
-		},
-		{
-		  "id": 2,
-		  "title": "java"
-		},
-		{
-		  "id": 3,
-		  "title": "hjm"
-		}
-	      ],
-		"profile": {
-			"name": "typicode"
-			}
+	"gastos": [
+        {
+            "gasto_id":1,
+            "lote_id": 1,
+            "periodo": "01/25",
+            "gastos_total.": 10000,
+            "multas":[
+                {
+                    "id_multa1": 1,
+                    "monto": 2000
+                },
+                {
+                    "id_multa1": 2,
+                    "monto": 2000
+                }
+            ],
+            "gastos_particulares":[
+                {
+                    "limpieza_frente_casa": 5000
+                }
+            ]
+        },
+        {
+            "gasto_id":2,
+            "lote_id": 2,
+            "periodo": "01/25",
+            "gastos_total.": 10000,
+            "multas":[
+                {
+                    "id_multa1": 3,
+                    "monto": 2000
+                },
+                {
+                    "id_multa1": 4,
+                    "monto": 2000
+                }
+            ],
+            "gastos_particulares":[
+                {
+                    "limpieza_frente_casa": 5000
+                }
+            ]
+        }
+    ]
 }
