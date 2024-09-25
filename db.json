@@ -42,5 +42,27 @@
                 }
             ]
         }
+    ],
+    "Gastos Totales": [
+        {
+            "Ordinaras" :
+            {
+                "periodo": "01/25",
+                "Luz": 200000,
+                "Agua": 300000,
+                "Gas": 150000,
+                "Sueldos y jornales": 100000,
+                "Fondo de emergencia": 50000,
+                "Total gastos Ordinarios": 800000,
+                "Estado": "Aprobado"
+            },
+           "Extraordinarias": {
+                "Reparacion de Portón": 50000,
+                "Total gastos Extraordinarios": 50000,
+                "Estado": "Aprobado"
+           },
+           "Total": 850000
+        }
     ]
 }
+
