@@ -1,70 +1,69 @@
 {
-  "gastos": [
-    {
-      "gasto_id": 1,
-      "lote_id": 1,
-      "periodo": "01/25",
-      "gastos_total": 10000,
-      "multas": [
+    "gastos": [
         {
-          "id_multa": 1,
-          "monto": 2000
+            "gasto_id": 1,
+            "lote_id": 1,
+            "periodo": "01/25",
+            "gastos_total": 10000,
+            "multas": [
+                {
+                    "id_multa": 1,
+                    "monto": 2000
+                },
+                {
+                    "id_multa": 2,
+                    "monto": 2000
+                }
+            ],
+            "gastos_particulares": [
+                {
+                    "limpieza_frente_casa": 5000
+                }
+            ]
         },
         {
-          "id_multa": 2,
-          "monto": 2000
+            "gasto_id": 2,
+            "lote_id": 2,
+            "periodo": "01/25",
+            "gastos_total": 10000,
+            "multas": [
+                {
+                    "id_multa": 3,
+                    "monto": 2000
+                },
+                {
+                    "id_multa": 4,
+                    "monto": 2000
+                }
+            ],
+            "gastos_particulares": [
+                {
+                    "limpieza_frente_casa": 5000
+                }
+            ]
         }
-      ],
-      "gastos_particulares": [
+    ],
+    "Gastos Totales": 
         {
-          "limpieza_frente_casa": 5000
+            "Ordinaras" :
+            {
+                "periodo": "01/25",
+                "Luz": 200000,
+                "Agua": 300000,
+                "Gas": 150000,
+                "Sueldos y jornales": 100000,
+                "Fondo de emergencia": 50000,
+                "Total gastos Ordinarios": 800000,
+                "Estado": "Aprobado"
+            },
+           "Extraordinarias": {
+                "Reparacion de Portón": 50000,
+                "Total gastos Extraordinarios": 50000,
+                "Estado": "Aprobado"
+           },
+           "Total": 850000
         }
-      ]
-    },
-    {
-      "gasto_id": 2,
-      "lote_id": 2,
-      "periodo": "01/25",
-      "gastos_total": 10000,
-      "multas": [
-        {
-          "id_multa": 3,
-          "monto": 2000
-        },
-        {
-          "id_multa": 4,
-          "monto": 2000
-        }
-      ],
-      "gastos_particulares": [
-        {
-          "limpieza_frente_casa": 5000
-        }
-      ]
-    }
-  ],
-  "gastosTotales": [
-    {
-      "tipo": "Ordinarias",
-      "periodo": "01/25",
-      "Luz": 200000,
-      "Agua": 300000,
-      "Gas": 150000,
-      "Sueldos y jornales": 100000,
-      "Fondo de emergencia": 50000,
-      "Total_gastos_Ordinarios": 800000,
-      "Estado": "Aprobado"
-    },
-    {
-      "tipo": "Extraordinarias",
-      "Reparacion_de_Porton": 50000,
-      "Total_gastos_Extraordinarios": 50000,
-      "Estado": "Aprobado"
-    },
-    {
-      "tipo": "Total",
-      "monto_total": 850000
-    }
-  ]
+    
 }
+
 
