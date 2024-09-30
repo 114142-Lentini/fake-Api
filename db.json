@@ -39,7 +39,8 @@
             ],
             "individualCharges": [
                 {
-                    "limpieza_frente_casa": 5000
+                    "description": "Limpieza frente casa",
+                    "amount": 5000    
                 }
             ]
         }
