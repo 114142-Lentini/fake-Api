@@ -19,8 +19,8 @@
       {
         "description": "Limpieza frente casa",
         "amount": 5000
-      }
-    ]
+      }
+    ]
         },
         {
             "expenseId": 2,
@@ -66,5 +66,3 @@
         }
     
 }
-
-
