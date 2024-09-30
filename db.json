@@ -15,12 +15,12 @@
                     "amount": 2000
                 }
             ],
-           "individualCharges": [
-                  {
-                "description": "Limpieza frente casa",
-                "amount": 5000
-                  }
-            ]
+          "individualCharges": [
+      {
+        "description": "Limpieza frente casa",
+        "amount": 5000
+      }
+    ]
         },
         {
             "expenseId": 2,
