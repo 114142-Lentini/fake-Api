@@ -59,8 +59,13 @@
                 "Estado": "Aprobado"
             },
            "extraordinary": {
-                "Reparacion de Portón": 50000,
-                "Total gastos Extraordinarios": 50000,
+                "charges": [
+                    {
+                        "description": "Reparacion de Portón",
+                        "amount": 50000
+                    }
+                ],
+                "totalExtraordinaryExpenses": 50000,
                 "Estado": "Aprobado"
            },
            "totalAmount": 850000
